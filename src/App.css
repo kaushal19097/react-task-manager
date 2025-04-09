@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.status-counts span {
+  margin-right: 15px;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-input input,
+.task-input select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.task-input button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.task-category {
+  background: white;
+  padding: 15px;
+  color: black;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task-category h3 {
+  margin-bottom: 10px;
+}
+
+.task-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-category li {
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background: #f1f1f1;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.task-category button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
